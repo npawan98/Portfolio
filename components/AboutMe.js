@@ -78,7 +78,7 @@ const Right = styled.div`
         padding-left:50px;
         text-align:center;
     }
-
+    margin-left:10px;
 `;
 
 const DownloadBtn = styled.div`
