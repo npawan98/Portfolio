@@ -19,11 +19,11 @@ function AboutMe() {
                     <p>Email: npawan98@gmail.com</p>
 
                     <SocialHandels>
-                        <InstagramIcon/>
-                        <Facebook/>
-                        <YouTube/>
-                        <Twitter/>
-                        <GitHub/>
+                        <a href="https://www.instagram.com/npawan98"><InstagramIcon/></a>
+                        <a href="https://www.facebook.com/npawan98"><Facebook/></a>
+                        <a href="https://www.youtube.com/technicallycharge"><YouTube/></a>
+                        <a href="https://www.twitter.com/technicalcharge"><Twitter/></a>
+                        <a href="https://www.github.com/npawan98"><GitHub/></a>
                     </SocialHandels>
                     </AboutText>
 
