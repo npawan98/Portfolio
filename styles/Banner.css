@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.banner{
+    position: relative;
+   height: 80%;
+   min-height: 660px;
+   width: 100%;
+   background: #161415 url("https://github.com/npawan98/Portfolio/raw/master/public/assets/banner.jpeg") no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .banner{
+      min-height: 500px;
+      
+    }
+    .banner__content{
+        /* height:510px; */
+        margin-top: 50px;
+        height: 290px !important;
+    }
+    .banner__title{
+        margin-top: 150px;
+        font: 50px/1.1em 'Open Sans', sans-serif !important; 
+    }
+    .dis{
+        font-size: 24px !important;
+    }
+  }
+
+.banner__content{
+    display:grid;
+    place-items:center;
+    height:80vh;
+} 
+.banner__title{
+    margin-top: 30%;
+    font: 90px/1.1em 'Open Sans', sans-serif;
+    color: #fff;
+    opacity: 80%;
+    letter-spacing: -2px;
+    /* margin: 0 auto 18px auto; */
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    }
+.dis{
+    font-size: 36px;
+}
+
+
+.banner__fadeBottom{
+    margin-top: 115px;
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
