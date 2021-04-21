@@ -105,7 +105,6 @@ const SocialHandels = styled.div`
     margin-bottom:20px;
     color: white;
     width:200px;
-    
     display:flex;
     justify-content:space-between ;
 `;
