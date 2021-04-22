@@ -3,6 +3,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 function TechnologiesUsed() {
     return (
         <Container id="skills">
+            <Space></Space>
             <Header>
                 <h1>Technical Skills</h1>
             </Header>
@@ -94,8 +95,13 @@ export default TechnologiesUsed
 const Container = styled.div`
     margin:15px;
 `;
+const Space = styled.div`
+height:15px;
+`;
+
 
 const Header = styled.div`
+    margin-top:50px;
     color:white;
 `;
 

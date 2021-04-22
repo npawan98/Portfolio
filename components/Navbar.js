@@ -40,10 +40,12 @@ function Navbar() {
             <div id="myNav" className="overlay">
                 <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
                 <div className="overlay-content">
-                    <a href="#about">About</a>
-                    <a href="#skills">Technical Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#">Contact</a>
+                    <a href="#" onClick={closeNav}>Home</a>
+                    <a href="#about" onClick={closeNav}>About</a>
+                    <a href="#skills"onClick={closeNav}>Technical Skills</a>
+                    <a href="#experience"onClick={closeNav}>Experience & Certifications</a>
+                    <a href="#projects" onClick={closeNav}>Projects</a>
+                    <a href="#contact" onClick={closeNav}>Contact</a>
                 </div>
             </div>
 

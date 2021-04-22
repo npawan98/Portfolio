@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 function Experience() {
     return (
-        <Container>
+        <Container id="experience">
+            <Space></Space>
             <Header>
                 <h1>Experience</h1>
             </Header>
@@ -62,6 +63,11 @@ margin:20px;
 color:white;
 
 `;
+
+const Space = styled.div`
+height:15px;
+`;
+
 
 const BodyText = styled.div`
 >div{

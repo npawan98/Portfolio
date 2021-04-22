@@ -92,6 +92,7 @@ color:white;
 `;
 
 const FormContainer = styled.div`
+margin-bottom:15px;
 `;
 
 const TextInput = styled.input`
