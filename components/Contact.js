@@ -1,6 +1,8 @@
 import { useState } from "react";
 import styled from "styled-components";
 import SendIcon from '@material-ui/icons/Send';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import { Facebook, GitHub, Twitter, YouTube } from "@material-ui/icons";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -66,6 +68,13 @@ function Contact() {
                         <SendIcon/>
                         <h4>Submit</h4>
                     </SubmitButton>
+                    <SocialHandels>
+                        <a href="https://www.instagram.com/npawan98"><InstagramIcon/></a>
+                        <a href="https://www.facebook.com/npawan98"><Facebook/></a>
+                        <a href="https://www.youtube.com/technicallycharge"><YouTube/></a>
+                        <a href="https://www.twitter.com/technicalcharge"><Twitter/></a>
+                        <a href="https://www.github.com/npawan98"><GitHub/></a>
+                    </SocialHandels>
                     
 
                 </form>
@@ -138,4 +147,12 @@ const SubmitButton = styled.div`
         color: #2B2B2B;
     
     }
+`;
+const SocialHandels = styled.div`
+    margin-top:20px;
+    margin-bottom:20px;
+    color: white;
+    width:200px;
+    display:flex;
+    justify-content:space-between ;
 `;
