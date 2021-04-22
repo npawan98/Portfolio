@@ -42,7 +42,7 @@ function Navbar() {
                 <div className="overlay-content">
                     <a href="#about">About</a>
                     <a href="#skills">Technical Skills</a>
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                     <a href="#">Contact</a>
                 </div>
             </div>
