@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import AboutMe from '../components/AboutMe'
 import Banner from '../components/Banner'
+import Experience from '../components/Experience'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
 import TechnologiesUsed from '../components/TechnologiesUsed'
@@ -27,6 +28,7 @@ export default function Home() {
       <TechnologiesUsed/>
 
       {/* projects crousal*/}
+      <Experience/>
       <Projects/>
 
       {/* contact me */}
