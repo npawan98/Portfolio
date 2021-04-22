@@ -4,6 +4,11 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import { Facebook, GitHub, Twitter, YouTube } from "@material-ui/icons";
 
 function AboutMe() {
+
+    const Link =(e)=>{
+        console.log("clicked")
+        window.open("https://drive.google.com/file/d/1mS6sCZCKy2zORD3WRjDF8yVQqeu1EHjD/view")
+    }
     return (
         <section id="about">
             <About>
@@ -28,12 +33,12 @@ function AboutMe() {
                     </AboutText>
 
                     
-
-                    <DownloadBtn>
+                   
+                    <DownloadBtn onClick={Link}>
                         <GetAppIcon/>
                         <h4>Download Resume</h4> 
                     </DownloadBtn>
-                    
+    
                 </Right>
                     
             </About>
@@ -82,6 +87,7 @@ const Right = styled.div`
 `;
 
 const DownloadBtn = styled.div`
+    cursor: pointer;
     margin-top:6px;
     color: #fff;
     display: flex;
