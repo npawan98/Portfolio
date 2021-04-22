@@ -12,7 +12,7 @@ function Contact() {
 
     const submitForm = () => {
         window.open(
-            `mailto:${contactEmail}?subject=${encodeURIComponent(
+            `mailto:npawan98@gmail.com?subject=${encodeURIComponent(
                 subject
             )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
                 email
