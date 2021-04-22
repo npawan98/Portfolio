@@ -17,13 +17,13 @@ function TechnologiesUsed() {
                 <Stack>
                     <h2>Node Js</h2>
                     <div>
-                        <ProgressBar isLabelVisible={false} completed={90} bgColor={"#3C873A"} baseBgColor={"#444"} />
+                        <ProgressBar isLabelVisible={false} completed={80} bgColor={"#3C873A"} baseBgColor={"#444"} />
                     </div>
                 </Stack>
                 <Stack>
                     <h2>Android</h2>
                     <div>
-                        <ProgressBar  isLabelVisible={false} completed={80} bgColor={"#32DE84"} baseBgColor={"#444"} />
+                        <ProgressBar  isLabelVisible={false} completed={60} bgColor={"#32DE84"} baseBgColor={"#444"} />
                     </div>
                 </Stack>
                 <Stack>
@@ -35,7 +35,7 @@ function TechnologiesUsed() {
                 <Stack>
                     <h2>Javascript</h2>
                     <div>
-                        <ProgressBar  isLabelVisible={false} completed={92} bgColor={"#f0db4f"} baseBgColor={"#444"} />
+                        <ProgressBar  isLabelVisible={false} completed={85} bgColor={"#f0db4f"} baseBgColor={"#444"} />
                     </div>
                 </Stack>
                 <Stack>
@@ -107,13 +107,6 @@ const Header = styled.div`
 
 const TechStack = styled.div`
 margin-top:30px;
-margin-left:50px;
-margin-right:50px;
-@media only screen and (max-width: 600px) {
-   margin-left:0px;
-   margin-right:0px;
-  }
-
 `;
 
 const Stack = styled.div`

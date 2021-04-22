@@ -71,15 +71,12 @@ height:15px;
 
 const BodyText = styled.div`
 >div{
-    margin-left:50px;
-    @media only screen and (max-width: 600px) {
     margin-left:20px;
-    }
-  }
 
 >p{
         
     opacity:50%;
+}
 }
 `;
 
