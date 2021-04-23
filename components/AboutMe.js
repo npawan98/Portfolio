@@ -57,7 +57,7 @@ const About = styled.div`
 
 const AboutText = styled.div`
     color:white;
-    width:400px;
+    width:350px;
     margin-top:10px;
     word-spacing:5px;
     >p{
