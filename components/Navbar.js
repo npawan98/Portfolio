@@ -25,11 +25,11 @@ function Navbar() {
 
         <div className={`nav ${show && "nav__black"}`}>
             <div className="nav__content">
-                <img
+                <a href="#"><img
                     className="nav__logo"
                     src="/assets/logo.png"
                     alt="BrandingLogo"
-                />
+                /></a>
 
                 <div className="nav__avatar">
                     <MenuIcon onClick={openNav} style={{ color: "white" }} />
