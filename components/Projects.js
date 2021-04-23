@@ -36,7 +36,7 @@ margin:20px;
 `;
 
 const ProjectsList = styled.div`
-    margin-left:20px;
+    /* margin-left:20px; */
     display:flex;
     overflow:scroll;
     ::-webkit-scrollbar{
