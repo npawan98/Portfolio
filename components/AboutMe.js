@@ -18,7 +18,7 @@ function AboutMe() {
                 <Right>
                     <AboutText>
                     <h2>About Me</h2> <br/>
-                        <p>Hi there! I am Pawan Kumar !, Coming to my experiences, i haved worked for some startups and i have been a technical coordinator and a tech lead at Google Developer Student Clubs, JIIT NOIDA, A part from this i have also worked on many Projects based on web development using Techstacks like React, Angular, MongoDB etc</p> <br/><br/>
+                        <p> Hi there !, I am Pawan Kumar, a Computer Science student and a tech enthusiastic, as a full stack developer I’ve worked with many startups and also been a technical coordinator and a tech lead at google developers student club (DSC JIIT Noida-128),I have contributed to many projects based on machine learning, REACT, Angular, MongoDB, Firebase Etc.</p> <br/><br/>
                     <h2>Contact Details</h2><br/>
                     <p>Phone Number: +91-9599892474</p>
                     <p>Email: npawan98@gmail.com</p>
