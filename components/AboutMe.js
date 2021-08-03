@@ -2,8 +2,14 @@ import styled from "styled-components"
 import GetAppIcon from '@material-ui/icons/GetApp';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import { Facebook, GitHub, Twitter, YouTube } from "@material-ui/icons";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 function AboutMe() {
+    useEffect(()=>{
+        Aos.init({duration:1000});
+      },[]);
 
     const Link =(e)=>{
         console.log("clicked")
@@ -12,10 +18,10 @@ function AboutMe() {
     return (
         <section id="about">
             <About>
-                <Left>
+                <Left data-aos="fade-right">
                      <ProfilePic src="https://github.com/npawan98/Portfolio/raw/master/public/assets/profile.jpeg"/>
                 </Left>
-                <Right>
+                <Right data-aos="fade-left">
                     <AboutText>
                     <h2>About Me</h2> <br/>
                         <p> Hi there !, I am Pawan Kumar, a Computer Science student and a tech enthusiastic, as a full stack developer I’ve worked with many startups and also been a technical coordinator and a tech lead at google developers student club (DSC JIIT Noida-128),I have contributed to many projects based on machine learning, REACT, Angular, MongoDB, Firebase Etc.</p> <br/><br/>

@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SendIcon from '@material-ui/icons/Send';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import { Facebook, GitHub, Twitter, YouTube } from "@material-ui/icons";
+import "aos/dist/aos.css"
+import Aos from "aos";
 
 function Contact() {
+    useEffect(()=>{
+        Aos.init({duration:1000});
+      },[]);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState("");
@@ -20,7 +25,7 @@ function Contact() {
         );
     };
     return (
-        <Container id="contact">
+        <Container id="contact" data-aos="fade-up">
             <Header>
                 <h1>Get In Touch ! </h1>
             </Header>
